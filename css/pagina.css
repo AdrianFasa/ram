@@ -1,0 +1,456 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "hola";
+    src: url(fonts/cs_regular.ttf);
+}
+
+h1{
+    color: blue;
+    font-family: "hola";
+    text-align: center; 
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 70px;
+    padding: 15px;
+}
+#inicio1{
+    position: absolute;
+    top: 30px;
+    right: 32px;
+}
+#logo{
+    width: 160px;
+    height: 130px;
+    float: left;
+}
+#menu{
+    width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    top: 5em; 
+    left: 20em;
+}
+ul, ol{
+    list-style: none;
+}
+.nav > li{
+    float: left;
+}
+.nav li a{
+    background-color: #E5E5E5;
+    color: black;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+.nav li a:hover{
+    background-color: skyblue;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.boton {
+ width: 100px; height: 30px;
+ background-color: red;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: background-color 1s;
+ float: right;
+}
+.boton:hover{
+ background-color: #888;
+}
+.boton p {
+ text-align: center;
+ font-size: 1em; 
+ font-weight:bold;
+ color: antiquewhite;
+ line-height: 1.6em;
+}
+   #container{
+    background-color: E5E5E5;
+    width: 1320px;
+    padding: 1em;
+    overflow: hidden; 
+    margin: auto;
+   }
+   #imagen1{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto1{
+       border: 1px black solid;
+       width:250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen2{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto2{
+       border: 1px black solid;
+       width:250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen3{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto3{
+       border: 1px black solid;
+       width:250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen4{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto4{
+       border:1px black solid;
+       width:250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen5{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto5{
+       border:1px black solid;
+       width:250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen6{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto6{
+       border: 1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen7{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto7{
+       border:1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen8{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto8{
+       border:1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen9{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto9{
+       border:1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen10{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto10{
+       border:1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen11{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto11{
+       border:1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen12{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto12{
+       border: 1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen13{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto13{
+       border: 1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen14{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto14{
+       border:  1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen15{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto15{
+       border:  1px black solid ;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen16{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto16{
+       border: 1px black solid ;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen17{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto17{
+       border: 1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen18{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto18{
+       border: 1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen19{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto19{
+       border: 1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   #imagen20{
+       margin: 1em;
+       padding: 1em;
+       float: left;
+       border: ridge;
+       color: orangered;
+       font-size: 17px;
+       font-weight: bold;
+   }
+   .foto20{
+       border:  1px black solid;
+       width: 250px;
+       height: 250px;
+       transition: all 500ms ease;
+   }
+   .foto1:hover{
+    transform: scale(1.2);
+}
+.foto2:hover{
+    transform: scale(1.2);
+}
+.foto3:hover{
+    transform: scale(1.2);
+}
+.foto4:hover{
+    transform: scale(1.2);
+}
+.foto5:hover{
+    transform: scale(1.2);
+}
+.foto6:hover{
+    transform: scale(1.2);
+}
+.foto7:hover{
+    transform: scale(1.2);
+}
+.foto8:hover{
+    transform: scale(1.2);
+}
+.foto9:hover{
+    transform: scale(1.2);
+}
+.foto10:hover{
+    transform: scale(1.2);
+}
+.foto11:hover{
+    transform: scale(1.2);
+}
+.foto12:hover{
+    transform: scale(1.2);
+}
+.foto13:hover{
+    transform: scale(1.2);
+}
+.foto14:hover{
+    transform: scale(1.2);
+}
+.foto15:hover{
+    transform: scale(1.2);
+}
+.foto16:hover{
+    transform: scale(1.2);
+}
+.foto17:hover{
+    transform: scale(1.2);
+}
+.foto18:hover{
+    transform: scale(1.2);
+}
+.foto19:hover{
+    transform: scale(1.2);
+}
+.foto20:hover{
+    transform: scale(1.2);
+}
+.fot{
+    margin: auto;
+    width: 1800px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
